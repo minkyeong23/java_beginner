@@ -8,8 +8,9 @@ public class JavaNewbie01 {
         String name = "자바 처음";
 
 //      double : 소숫점 있는 숫자 (실수) 저장
-        double money = 10.2385;
+        double money = 10.2385; 
 
+//      println: 값을 그대로 출력하고, 마지막에 자동으로 줄을 바꿈
         System.out.println("hello java");
 
 //       + : 값(문자열, 숫자 등)을 이어줌
@@ -17,13 +18,14 @@ public class JavaNewbie01 {
         System.out.println("30" + 20);
         System.out.println(age + "살이고 " + name + "입니다");
 
-//       %d가 (정수) , %s (문자열) 그 뒤 변수(age, name)와 순서 맞춰 넣기 / println과 달리 (,) 로 연결
+//       %d가 (정수) , %s (문자열) 그 뒤 변수(age, name)와 순서 맞춰 넣기 / println과 달리 (,) 로 연결, \n 또는 %n 으로 줄 바꿈
         System.out.printf("%d살이고 %s입니다\n", age, name);
 
 //        %f :실수 출력 / %.2f 소숫점 둘째 자리까지 출력 (반올림)
-        System.out.printf("%.2f원", money);
+        System.out.printf("%.2f원\n", money);
+//      println은 변수에 있는 값 그대로 출력
+        System.out.println(money + "원");
 
-
-    }
+   }
 
 }
