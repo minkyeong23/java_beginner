@@ -1,8 +1,8 @@
 public class Operator02_02 {
     public static void main(String[] args) {
 
-//        삼항 연산자 : 이거 맞냐 묻는 `?` 조건이 참일 때 값 : 거짓일 때 값
-//        조건 (괄호)로 묶는게 읽기 편함
+//        삼항 연산자 : 조건식의 결과가 true면 앞의 값, false면 뒤의 값 선택
+//        (조건식) ? 참일 때 값 : 거짓일 때 값;
         int num1 = 1;
         int num2 = 2;
         int age = 26;
