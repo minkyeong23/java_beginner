@@ -1,4 +1,4 @@
-public class JavaNewbie01 {
+public class _01JavaNewbie {
 
 //    main 넣기
     public static void main(String[] args) {

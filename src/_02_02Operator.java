@@ -1,4 +1,4 @@
-public class Operator02_02 {
+public class _02_02Operator {
     public static void main(String[] args) {
 
 //        삼항 연산자 : 조건식의 결과가 true면 앞의 값, false면 뒤의 값 선택

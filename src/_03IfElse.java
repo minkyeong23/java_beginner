@@ -1,4 +1,4 @@
-public class IfElse03 {
+public class _03IfElse {
     public static void main(String[] args) {
 
         int age = 20;

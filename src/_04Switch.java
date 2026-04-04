@@ -1,4 +1,4 @@
-public class Switch04 {
+public class _04Switch {
     public static void main(String[] args) {
         String medal = "은메달";
 
